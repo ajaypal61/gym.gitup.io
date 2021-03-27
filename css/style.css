@@ -2159,6 +2159,34 @@ ol {
 /* Large Mobile : 480px. */
 
 @media only screen and (max-width: 767px) {
+    .logo img {
+        /* height: 20px; */
+    }
+    .logo {
+        border: 2px solid white !important;
+        height: 40px;
+    }
+    .logo a {
+        padding-left: 2px !important;
+        padding-top: 1px !important;
+    }
+    .owl-item {
+        height: 500px !important;
+    }
+    .single-slide {
+        padding-top: 50%;
+    }
+    .hero-slider {
+        padding-bottom: 0% !important;
+        margin-bottom: 0% !important;
+    }
+    /* .spad {
+        padding-top: 0px !important;
+    } */
+    .single-slide.set-bg {
+        background-size: 100% 70% !important;
+        /* background-size: cover !important; */
+    }
     .contact-details h1 {
         font-size: 40px;
         text-align: center;
@@ -2170,7 +2198,7 @@ ol {
         display: none;
     }
     .header-section {
-        height: 125px;
+        height: 80px;
     }
     .main-menu {
         padding-top: 20px;
@@ -2192,12 +2220,14 @@ ol {
         padding: 25px;
     }
     .slicknav_btn {
-        margin: 5px 5px 30px;
+        margin: 12px 5px 11px;
         border-radius: 0;
         float: right;
         background-color: #233EDE;
         position: relative;
         top: -56px;
+        padding: 13px;
+        font-size: 17px;
     }
     .slicknav_nav a:hover {
         border-radius: 0;
